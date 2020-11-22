@@ -1,13 +1,13 @@
 .suggestion-item {
-  color: rgba(0, 0, 0, 0.87);
-  text-decoration: none;
-  padding: 0.6rem 1rem;
-  display: block;
-  text-align: left;
-  border-bottom: 1px dotted rgb(204, 204, 204);
-  font-size: 1rem;
-  cursor: pointer;
-  &:hover {
-    color: #00b5ad;
-  }
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    padding: 0.6rem 1rem;
+    display: block;
+    text-align: left;
+    border-bottom: 1px dotted rgb(204, 204, 204);
+    font-size: 1rem;
+    cursor: pointer;
+    &:hover {
+        color: #00b5ad;
+    }
 }

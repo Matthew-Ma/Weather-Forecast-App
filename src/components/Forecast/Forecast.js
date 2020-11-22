@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 import ForecastItem from './ForecastItem';
 import { Card } from 'semantic-ui-react';
 import { DAYS_TO_DISPLAY } from '../../config/config';
+import './Forecast.scss';
 
 const Forecast = () => {
     const { forecast } = useSelector((state) => ({
