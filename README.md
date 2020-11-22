@@ -1,4 +1,7 @@
-![Alt text](./src/img/snapshot.png?raw=true 'weather-App')
+<img src="./src/img/snapshot.png" alt="weather-App"
+	title="weather-App" width="70%"  />
+<img src="./src/img/snapshot-m.png" alt="weather-App"
+	title="weather-App" width="29%"  />
 
 # Weather Forecast Widget
 
