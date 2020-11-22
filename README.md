@@ -5,7 +5,7 @@
 ## Feature
 
 -   Pre-populate the form and display the weather forecast using the geolocation browser API
--   Cancell the previous if a subsequent request is made
+-   Cancel the previous requests if a subsequent request is made
 -   Debounce the input
 
 ## Technical stack
@@ -14,44 +14,43 @@
 
     -   Redux
     -   Sass
-    -   Semantic
+    -   Semantic UI
     -   Lodash
-    -   Semantic
     -   Axios
     -   React hooks
 
--   jest
+-   Jest
 
-    -   enzyme
-    -   redux-mock-store
-    -   testing-library
+    -   Enzyme
+    -   Redux-mock-store
+    -   Testing-library
 
--   husky
-    -   prettier
-    -   eslint
+-   Husky
+    -   Prettier
+    -   Eslint
 
 # Setup
 
-> Runs the app
+## Runs the app
 
-```shell
+```
 $ git clone https://github.com/Matthew-Ma/Weather-Forecast-App.git
 $ cd Weather-Forecast-App
 $ npm install
 $ npm start
 ```
 
-[http://localhost:3000](http://localhost:3000)
+Open [http://localhost:3000](http://localhost:3000)
 
-> Runs the test
+## Runs the test
 
-```shell
+```
 $ npm run test
 ```
 
 # Note
 
-Metaweather API has limited requests restriction per hour
+[Metaweather API](https://www.metaweather.com/api/) has limited requests restriction per hour
 
 # License
 
