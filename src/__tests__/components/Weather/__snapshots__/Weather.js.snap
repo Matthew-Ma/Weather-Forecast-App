@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weather component: renders Weather 1`] = `
+<div>
+  <div
+    class="ui container"
+  >
+    <div
+      class="loader"
+    >
+      <div
+        class="sk-chase"
+      >
+        <div
+          class="sk-chase-dot"
+        />
+        <div
+          class="sk-chase-dot"
+        />
+        <div
+          class="sk-chase-dot"
+        />
+        <div
+          class="sk-chase-dot"
+        />
+        <div
+          class="sk-chase-dot"
+        />
+        <div
+          class="sk-chase-dot"
+        />
+      </div>
+    </div>
+    <div
+      class="ui center aligned middle aligned grid"
+      style="height: 100vh;"
+    >
+      <div
+        class="column"
+      >
+        <div
+          class="ui teal huge center aligned header"
+        >
+          Weather Forecast Widget
+        </div>
+        <div
+          class="ui center aligned grid"
+        >
+          <div
+            class="six wide column search-box"
+          >
+            <div
+              class="ui big fluid icon input"
+            >
+              <input
+                name="location"
+                placeholder="Search for location"
+                type="text"
+                value=""
+              />
+              <i
+                aria-hidden="true"
+                class="search icon"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="ui four cards"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,31 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "jasmine": true,
+        "jest": true,
+        "es6": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended"
+    ],
+    "parser": "babel-eslint",
+    "rules": {
+        "semi": 1,
+        "react/prop-types": 0,
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [".js", ".jsx"]
+            }
+        ],
+        "prettier/prettier": [
+            "error",
+            {
+                "semi": true
+            }
+        ]
+    }
+}
