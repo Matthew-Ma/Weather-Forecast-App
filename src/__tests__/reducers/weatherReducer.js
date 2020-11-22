@@ -2,7 +2,7 @@ import { weatherReducer } from '../../reducers/weatherReducer';
 
 const mockData = { item: 'item1' };
 
-describe('app reducer:', () => {
+describe('weather reducer:', () => {
     const initialState = {
         weatherData: [],
         isError: false,

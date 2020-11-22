@@ -26,7 +26,7 @@ const SearchBox = () => {
             setIsNewLoading(false);
             try {
                 const res = await searchLocationByCoordinates(position);
-                dispatch(fetchWeatherFromApi(res.data[0].woeid));
+                dispatch(fetchWeatherFromApi(res?.data[0]?.woeid));
                 setIsNewSearch(false);
                 setSearchTerm(res?.data[0]?.title);
             } catch (err) {
